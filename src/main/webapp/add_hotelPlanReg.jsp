@@ -17,6 +17,9 @@
 			<input type="submit" value="登録">
 		</form>
 		
+		<p>プランの繰り返し表示が入ります。</p>
+		<p>削除</p>
 		
+		<a href="add_hotelTop.jsp">トップに戻る</a>
 	</body>
 </html>

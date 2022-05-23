@@ -14,7 +14,7 @@
 					<div id="menu">
   						<li class="current"><a href="top.jsp">ホーム</a></li>
   						<li><a href="gimi.html">マイページ</a></li>
-  						<li><a href="kouryaku.html">会員登録</a></li>
+  						<li><a href="mem_Reg.jsp">会員登録</a></li>
   						<li><a href="mem_Bc.jsp">予約確認</a></li>
   					</div>
 	</ul>
