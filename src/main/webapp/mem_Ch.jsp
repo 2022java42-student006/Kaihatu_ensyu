@@ -3,11 +3,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="/Kaihatu_ensyu/css/style.css" rel="stylesheet">
 <meta charset="UTF-8">
 <title>会員情報変更</title>
 </head>
 <body>
 		<h3>会員情報変更</h3>
+		
+		
 		
 		<ul class="snip1217">
 					<div id="menu">
@@ -15,9 +18,10 @@
   						<li><a href="mem_MyPage.jsp">マイページ</a></li>
   						<li><a href="mem_Reg.jsp">会員登録</a></li>
   						<li><a href="mem_Bc.jsp">予約確認</a></li>
-  		</div>
-	</ul>
-	
+  					</div>
+		</ul>
+	<br>
+	<h4>※変更する場合は、変更したい記入事項のみ記入</h4>
 	<br>
 				名前
 					<input type="text" name ="名前" class="form-text"/>
@@ -44,6 +48,6 @@
 				住所
 					<input type="text" name="住所" class="form-text"/>
 				
-				<input class="contact-submit" type="submit" value="登録" />
+				<input class="contact-submit" type="submit" value="変更" />
 </body>
 </html>
