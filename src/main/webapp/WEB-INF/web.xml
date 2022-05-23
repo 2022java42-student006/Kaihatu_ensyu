@@ -9,4 +9,14 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Kaihatu_ensyu</display-name>
+    <servlet-name>Kaihatu_ensyu</servlet-name>
+    <jsp-file>/NewFile.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Kaihatu_ensyu</servlet-name>
+    <url-pattern>/Kaihatu_ensyu</url-pattern>
+  </servlet-mapping>
 </web-app>
