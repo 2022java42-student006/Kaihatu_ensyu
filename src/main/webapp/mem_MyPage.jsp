@@ -24,12 +24,10 @@ E-mail:
 ログインID：
 <br>
 <br>
-
-<button onclick="location.href='mem.Ch.jsp'">
+<a href="mem_Ch.jsp">
 変更
-</button>
-
-
+</a>
+<a href="mem_Lev.jsp">退会</a>
 <input type ="submit" value="ログアウト">
 <input type="hidden" name="action" value="logout">
 </form>
