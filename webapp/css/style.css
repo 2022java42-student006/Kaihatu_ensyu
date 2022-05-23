@@ -103,11 +103,7 @@ border: inset 3px #95A38D;
 background-color: #95A38D;
 }
 
-.namae{
-margin: 10px 9%;
-min-width: 200px;
 
-}
 .selectdiv {
   position: relative;
   float: left;
@@ -217,4 +213,3 @@ display: none;
 .contact-body{
 	width:100%;
 }
-			
