@@ -1,57 +1,16 @@
 @charset "UTF-8";
 
 /*検索フォーム*/
+
 .form-text{
- width: 100%;
-    padding: 10px;
+ width: 50%;
+    padding: 20px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    max-width: 400px;
-    margin-top:15px;
+    
      display: inline-block;
-}
-
-
-/*ログイン画面等*/
-*{
-	box-sizing:border-box;
-}
-.contact{
-	width:960px;
-	margin:0 auto;
-	padding:60px 0;
-}
-.contact-ttl{
-	font-size:40px;
-	font-weight:bold;
-	margin-bottom:40px;
-	text-align:center;
-}
-.contact-table{
-	width: 100%;
-	margin-bottom:20px;
-}
-.contact-body{
-	width:70%;
-}
-
-.contact-item,
-.contact-body{
-	padding:20px;
-	border:1px solid #ccc;
-		display:block;
-}
-
-.contact-item{
-	text-align:left;
-	width:30%;
-	background-color:#eee;
-}
-.contact-body{
-	width:100%;
+     margin: 10px;
 }
 
 
@@ -283,8 +242,7 @@ display: none;
   margin-top: 30px;
 }
 
-/*宿予約確認*/
-table{
+/*宿予約確認*/table{
   width: 100%;
   border-collapse:separate;
   border-spacing: 0;
