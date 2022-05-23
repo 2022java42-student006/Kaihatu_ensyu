@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>宿管理画面</title>
+<title>ホテルプラン情報登録</title>
 </head>
+<body>
 
-	<body>
-		
-	</body>
+</body>
 </html>
