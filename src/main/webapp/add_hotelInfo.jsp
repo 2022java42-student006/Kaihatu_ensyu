@@ -4,14 +4,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>宿情報</title>
 </head>
 
 	<body>
-		<h3>管理者ページ</h3>
-		<a href="add_memTop.jsp">会員情報管理</a><br>
-		<a href="add_hotelTop.jsp">宿情報管理</a>
+		<h3>宿情報</h3>
 		
+		<p>宿情報の表示</p>
+		
+		<a href="add_hotelCh.jsp">変更</a>　　　<a href="add_hotelDel.jsp">削除</a>
 	</body>
 
 </html>

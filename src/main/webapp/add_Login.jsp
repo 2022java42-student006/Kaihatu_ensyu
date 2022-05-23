@@ -9,7 +9,7 @@
 </head>
 
 	<body>
-		<h3>管理者ログイン</h3>
+		<h3>管理者ログイン</h3><a href="add_Top.jsp">戻る</a>
 		<br>
 				
 				<form action="/Kaihatu_ensyu/Add_LoginServlet?action=login_info" method="post">

@@ -10,8 +10,7 @@
 <a href="top.jsp">Topへ戻る</a>
 <br>
 <h1>ログイン</h1>
-<br>
-<form action="/" method="post">
+<form>
 
 ログインID<input type="text" name="loginID">
 <br>

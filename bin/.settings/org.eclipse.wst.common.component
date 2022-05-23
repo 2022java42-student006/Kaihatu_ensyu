@@ -3,7 +3,7 @@
     
     <wb-module deploy-name="Kaihatu_ensyu">
         <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/"/>
                         
         
         <property name="context-root" value="Kaihatu_ensyu"/>
