@@ -36,9 +36,6 @@
 				</form>
 				<br>	
 				
-		<footer id="red">
-  		<h1 class="text">新宿トラベル</h1>
- 		 <h2 class="text2">&copy;  Shinjuku Travel</h2>
-	</footer>
+		
 </body>
 </html>
