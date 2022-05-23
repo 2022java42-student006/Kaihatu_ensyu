@@ -25,11 +25,10 @@ E-mail:
 <br>
 <br>
 
-<input type="submit" value="変更">
-<input type="hidden" name="action" value="changeMemData"> 
+<button onclick="location.href='mem.Ch.jsp'">
+変更
+</button>
 
-<input type="submit" value="退会">
-<input type="hidden" name="action" value="leave">
 
 <input type ="submit" value="ログアウト">
 <input type="hidden" name="action" value="logout">
