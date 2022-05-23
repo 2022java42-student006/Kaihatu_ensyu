@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>会員情報削除確定画面</title>
+</head>
+<body>
+<h1>管理者ページ</h1>
+
+<h1><a>削除しました</a></h1><br><br>
+
+<h1><a href="add_memTop.jsp">管理トップページに戻る</a></h1>
+</html>
