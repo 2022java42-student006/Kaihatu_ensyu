@@ -21,7 +21,7 @@
 	
 			<br>
 				名前
-					<input type="text" name ="名前   " class="form-text"/>
+					<input type="text" name ="名前" class="form-text"/>
 
 			<br>
 				電話番号
