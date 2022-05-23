@@ -31,15 +31,14 @@
 					<p >キーワードで検索:</p>
 				
 				
-				<form action="text" method="get">
 					<input type="search" name="search" plachholder="キーワードを入力" class="form-text">
 					<input type="submit" name="submit" value="検索">
 				</form>
 				<br>	
 				
 		<footer id="red">
-  		<h1 class="text">XFLAG</h1>
- 		 <h2 class="text2">&copy;  graduation research</h2>
+  		<h1 class="text">新宿トラベル</h1>
+ 		 <h2 class="text2">&copy;  Shinjuku Travel</h2>
 	</footer>
 </body>
 </html>
