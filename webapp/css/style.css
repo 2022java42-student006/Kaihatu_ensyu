@@ -1,7 +1,220 @@
 @charset "UTF-8";
-h1{
-	color:red;
+
+html{
+	font-size: 100%;
 }
-#paragraph{
-text-align:center;	
+body{
+	 font-family: "Yu Gothic Medium","游ゴシック Medium", YuGothic, "游ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
+  line-height: 1.7;
+  color: #432;
+  background-image: url(image/back.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+.snip1217 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+}
+.snip1217 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1217 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 1.5em;
+  padding: 0;
+  font-size: 30px;
+}
+.snip1217 a {
+  padding: 0.3em 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+.snip1217 a:before,
+.snip1217 a:after {
+  height: 3px;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  background-color: #9b59b6;
+  width: 0;
+}
+.snip1217 a:before {
+  top: 0;
+  left: 0;
+}
+.snip1217 a:after {
+  bottom: 0;
+  right: 0;
+}
+.snip1217 a:hover,
+.snip1217 .current a {
+  color: #ffffff;
+}
+.snip1217 a:hover:before,
+.snip1217 .current a:before,
+.snip1217 a:hover:after,
+.snip1217 .current a:after {
+  width: 100%;
+}
+/*メニュ-*/
+#menu ul{
+margin: 0;  
+padding: 0; 
+list-style: none;
+flex-wrap: wrap;
+margin-left: 150px;
+}
+#menu li{ 
+display: inline; 
+padding: 0; 
+margin: 0; 
+float: left;
+
+}
+#menu li a{
+display: block;
+width: 120px;
+padding: 2px;
+margin-top: 20px;
+margin: 10px 0px 0px 0px;
+text-decoration: none;
+border:outset 3px #C2CBBD;
+background-color: #fff;
+text-align: center;
+color: #000000;
+font-size: 14px;
+}
+#menu li a:hover{
+border: inset 3px #95A38D;
+background-color: #95A38D;
+}
+
+.namae{
+margin: 10px 9%;
+min-width: 200px;
+
+}
+.selectdiv {
+  position: relative;
+  float: left;
+  min-width: 200px;
+  margin: 5px 9%;
+}
+
+
+select::-ms-expand {
+display: none;
+}
+
+.selectdiv:after {
+  content: '<>';
+  font: 17px "Consolas", monospace;
+  color: #333;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  right: 11px;
+  /*Adjust for position however you want*/
+  
+  top: 18px;
+  padding: 0 0 2px;
+  border-bottom: 1px solid #999;
+  /*left line */
+  
+  position: absolute;
+  pointer-events: none;
+}
+
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add some styling */
+  
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  float: right;
+  margin: 5px 0px;
+  padding: 0px 24px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+
+/*検索フォーム*/
+.form-text{
+ width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    max-width: 400px;
+    margin-top:15px;
+     display: inline-block;
+}
+
+
+/*ログイン画面等*/
+*{
+	box-sizing:border-box;
+}
+.contact{
+	width:960px;
+	margin:0 auto;
+	padding:60px 0;
+}
+.contact-ttl{
+	font-size:40px;
+	font-weight:bold;
+	margin-bottom:40px;
+	text-align:center;
+}
+.contact-table{
+	width: 100%;
+	margin-bottom:20px;
+}
+.contact-body{
+	width:70%;
+}
+
+.contact-item,
+.contact-body{
+	padding:20px;
+	border:1px solid #ccc;
+		display:block;
+}
+
+.contact-item{
+	text-align:left;
+	width:30%;
+	background-color:#eee;
+}
+.contact-body{
+	width:100%;
+}
+			
