@@ -24,13 +24,10 @@ E-mail:
 ログインID：
 <br>
 <br>
-
-<input type="submit" value="変更">
-<input type="hidden" name="action" value="changeMemData"> 
-
-<input type="submit" value="退会">
-<input type="hidden" name="action" value="leave">
-
+<a href="mem_Ch.jsp">
+変更
+</a>
+<a href="mem_Lev.jsp">退会</a>
 <input type ="submit" value="ログアウト">
 <input type="hidden" name="action" value="logout">
 </form>
