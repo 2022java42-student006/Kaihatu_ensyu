@@ -8,6 +8,7 @@
 </head>
 <body>
 <h1>管理者ページ</h1>
+<a href="add_memTop.jsp">戻る</a>
 <form action="/" method="post">
 <br>
 <br>
