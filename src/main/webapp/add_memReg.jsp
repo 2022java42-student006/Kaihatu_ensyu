@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h1>会員新規登録画面</h1>
-	<a href="/add_menuTop.jsp/">戻る</a>
+	<a href="add_memTop.jsp">戻る</a>
 	<form action="" method="post">
 		氏名：<input type="text" name="name"> <br>
 		電話番号：<input type="text" name="tel"><br>
