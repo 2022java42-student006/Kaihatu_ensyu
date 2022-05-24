@@ -18,14 +18,13 @@
   							<li class="current"><a href="top.jsp">ホーム</a></li>
   							<li><a href="mem_MyPage.jsp">マイページ</a></li>
   							<li><a href="mem_Reg.jsp">会員登録</a></li>
-  							<li><a href="mem_Bc.jsp">予約確認</a></li>
+  							<li><a href="mem_Login.jsp">ログイン</a></li>
   						</div>
 					</ul>	
 		</div>
 	<br>
 <form action="/" method="post">
 
-<input type="submit" value="予約情報確認">
 
 
 <input type="hidden" name="action" value="bookConfirm">
@@ -41,20 +40,20 @@ E-mail:${member.email}
 ログインID：${member.login_id}
 
 <br>
-電話番号：
 <br>
 <br>
-E-mail:
-<br>
-<br>
-ログインID：
 
-<br>
-<br>
-<a href="mem_Ch.jsp">変更</a>
-<a href="mem_Lev.jsp">退会</a>
+<a href="mem_Ch.jsp" class="btn btn-flat"><span>変更</span></a>
+<a href="mem_Lev.jsp" class="btn btn-flat"><span>退会</span></a>
+
+
+
+<div id="app">
+<label>
 <input type ="submit" value="ログアウト">
 <input type="hidden" name="action" value="logout">
+</label>
+</div>
 <br>
 
 
