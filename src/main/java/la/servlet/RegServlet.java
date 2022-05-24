@@ -35,10 +35,7 @@ public class RegServlet extends HttpServlet {
 		bean.setPhone(request.getParameter("tel"));
 		bean.setEmail(request.getParameter("email"));
 		bean.setBirthday(birthday);
-<<<<<<< HEAD
-		
-=======
->>>>>>> 30d43f756f25921f647af090a3bb5e86663b7afd
+
 		bean.setLogin_id(Integer.parseInt(request.getParameter("login_id")));
 		bean.setPass(request.getParameter("password"));
 		
