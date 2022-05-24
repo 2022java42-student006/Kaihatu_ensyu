@@ -34,7 +34,10 @@
 					<input type="search" name="search" placeholder="キーワードを入力" class="form-text">
 					<input type="submit" name="submit" value="検索">
 				</form>
-				<br>	
+				<br>
+				
+				
+				<a href="add_Login.jsp">管理者はこちらから←</a>	
 				
 		<footer id="f3">
   		<h1 class="f">新宿トラベル</h1>
