@@ -8,19 +8,17 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
 import la.bean.MemberBean;
 import la.dao.DAOException;
 import la.dao.RegDAO;
 
-@WebServlet("/RegServlet")
-public class RegServlet extends HttpServlet {
+@WebServlet("/Add_RegServlet")
+public class Add_RegServlet extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		try{
-		
 		request.setCharacterEncoding("UTF-8");
 		
 		String year = request.getParameter("year");
@@ -35,19 +33,15 @@ public class RegServlet extends HttpServlet {
 		bean.setPhone(request.getParameter("tel"));
 		bean.setEmail(request.getParameter("email"));
 		bean.setBirthday(birthday);
-
+		
 		bean.setLogin_id(Integer.parseInt(request.getParameter("login_id")));
 		bean.setPass(request.getParameter("password"));
 		
 		RegDAO reg = new RegDAO();
 		
 		reg.saveMember(bean);
-		
-		HttpSession session = request.getSession();
-		
-		session.setAttribute("member", bean);
 
-		gotoPage(request, response, "/mem_MyPage.jsp");
+		gotoPage(request, response, "/add_memTop.jsp");
 		
 		}catch(DAOException e) {
 			e.printStackTrace();
