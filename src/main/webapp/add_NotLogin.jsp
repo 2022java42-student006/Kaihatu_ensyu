@@ -9,6 +9,7 @@
 </head>
 
 	<body>
+	<jsp:include page="/addMenu.jsp" />
 		<h1>ログインに失敗しました</h1>
 		<a href="add_Login.jsp">ログイン画面に戻る</a>
 	</body>

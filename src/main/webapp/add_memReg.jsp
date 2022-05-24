@@ -8,6 +8,7 @@
 <title>会員新規登録画面</title>
 </head>
 <body>
+<jsp:include page="/addMenu.jsp" />
 	<h1>会員新規登録画面</h1>
 	<a href="add_memTop.jsp">戻る</a>
 	

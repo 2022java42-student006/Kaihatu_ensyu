@@ -7,7 +7,7 @@
 <title>会員情報変更</title>
 </head>
 <body>
-<h1>管理者ページ</h1>
+<jsp:include page="/addMenu.jsp" />
 <a href="add_memInfo.jsp">戻る</a>
 <h3>会員情報変更</h3>
 <a>会員情報</a><br>
