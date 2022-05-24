@@ -37,7 +37,6 @@
 
 	</table>
 	<br>
-	<br>
 	<footer id="f3">
   		<h1 class="f">新宿トラベル</h1>
  		 <h2 class="f1">&copy;  Shinjuku Travel</h2>
