@@ -7,7 +7,7 @@
 <title>宿泊人数、チェックイン、チェックアウト入力</title>
 </head>
 <body>
-
+<a href="hotel_SelectPlan1.jsp">戻る</a>
 <form action="" method="post">
 <p>○○ホテル・プラン○○(データベースより取得)</p>
 <p>金額：￥○○(データベースより取得)</p>

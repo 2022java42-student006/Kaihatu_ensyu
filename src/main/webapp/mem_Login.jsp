@@ -24,10 +24,7 @@
 <br>
 <br>
 
-退会手続きの方はこちら
-<input type="hidden" name="action" value="leave">
-<input type="submit" value="退会手続き">
-
+<a href="mem_Lev.jsp">退会手続きの方はこちら</a>
 
 </form>
 </body>

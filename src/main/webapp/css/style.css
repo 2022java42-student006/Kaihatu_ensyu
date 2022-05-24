@@ -1,5 +1,83 @@
 @charset "UTF-8";
+/*aタグ*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
 
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-weight: 200;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-flat {
+  overflow: hidden;
+  color: #fff;
+  border-radius: 0;
+  background: #000;
+}
+
+a.btn-flat span {
+  position: relative;
+}
+
+a.btn-flat:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 150%;
+  height: 500%;
+
+  content: "";
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+
+  background: #00b7ee;
+}
+
+a.btn-flat:hover:before {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+
+
+/*タイトル*/
+.sample_h_7{
+font-size: 25px;/* フォントサイズ */
+font-weight: bold;/* フォント太さ */
+padding-top: .5em;
+padding-bottom: .5em;
+padding-left: 1.5em;
+background-color: #b7efdf;/* 背景色 */
+border-bottom: 5px solid #395049;/* 下線 */
+color: #334842;/* フォント色 */
+}
 /*検索フォーム*/
 .form-text{
  width: 100%;
@@ -76,6 +154,7 @@ body{
   font-weight: 500;
   letter-spacing: 1px;
   margin-bottom: 60px;
+  margin-left:400px;
 }
 .snip1217 * {
   -webkit-box-sizing: border-box;
@@ -265,7 +344,8 @@ display: none;
   position:absolute;  
   height:100%;
   width:100%; 
-  height:100%; 
+  height:300px; 
+  margin-top:10px;
 }
 
 .f {
@@ -287,6 +367,7 @@ table{
   border-collapse:separate;
   border-spacing: 0;
 }
+
 
 table th:first-child{
   border-radius: 5px 0 0 0;
@@ -330,3 +411,5 @@ table tr:last-child td:first-child {
 table tr:last-child td:last-child {
   border-radius: 0 0 5px 0;
 }
+
+
