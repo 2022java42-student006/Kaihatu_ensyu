@@ -24,8 +24,6 @@ public class RegDAO {
 
 public void saveMember(MemberBean member) throws DAOException{
 		
-		
-		
 		String sql = "INSERT INTO member_information(name, address, tel, email, birthday,login_id, password, en_date) VALUES(?, ?, ?, ?, '"+member.getBirthday()+"', ?, ?, current_date)";
 		
 		try(
@@ -42,7 +40,6 @@ public void saveMember(MemberBean member) throws DAOException{
 				
 				
 				st.executeUpdate();
-				
 				
 				
 			}catch(SQLException e) {

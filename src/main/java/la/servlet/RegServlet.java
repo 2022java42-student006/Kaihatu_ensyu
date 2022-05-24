@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import la.bean.MemberBean;
 import la.dao.DAOException;
@@ -19,6 +20,8 @@ public class RegServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		try{
+			
+		HttpSession session = request.getSession();
 		request.setCharacterEncoding("UTF-8");
 		
 		String year = request.getParameter("year");
@@ -33,8 +36,6 @@ public class RegServlet extends HttpServlet {
 		bean.setPhone(request.getParameter("tel"));
 		bean.setEmail(request.getParameter("email"));
 		bean.setBirthday(birthday);
-		
-		
 		bean.setLogin_id(Integer.parseInt(request.getParameter("login_id")));
 		bean.setPass(request.getParameter("password"));
 		

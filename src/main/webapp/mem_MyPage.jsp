@@ -31,14 +31,14 @@
 <input type="hidden" name="action" value="bookConfirm">
 <br>
 
-氏名：${member.name}
+氏名：${reg.name}
 <br>
 
-電話番号：${member.phone}
+電話番号：${reg.phone}
 <br>
-E-mail:${member.email} 
+E-mail:${reg.email} 
 <br>
-ログインID：${member.login_id}
+ログインID：${reg.login_id}
 
 <br>
 電話番号：
