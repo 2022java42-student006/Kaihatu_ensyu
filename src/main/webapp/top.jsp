@@ -22,7 +22,7 @@
 		 </div>
 		 
 			<br>
-				<p >宿名で検索:</p>
+				<p>宿名で検索:</p>
 				
 				
 				<form action="text" method="get">
