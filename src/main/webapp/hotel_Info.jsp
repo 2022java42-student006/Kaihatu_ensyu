@@ -8,9 +8,10 @@
 <title>宿情報詳細</title>
 </head>
 <body>
-<h3>新宿トラベル</h3>
+<div class="sample_h_7">
+<p>新宿トラベル</p>
 	
-	<ul class="snip1217">
+			<ul class="snip1217">
 					<div id="menu">
   						<li class="current"><a href="top.jsp">ホーム</a></li>
   						<li><a href="mem_MyPage.jsp">マイページ</a></li>
@@ -18,7 +19,8 @@
   						<li><a href="mem_Bc.jsp">予約確認</a></li>
   						
   					</div>
-	</ul>
+			</ul>
+</div>
 	
 	
 <br>
@@ -43,7 +45,10 @@
 <input type="hidden" name="action" value="reserve">
 </form>
 
-
+		<footer id="f3">
+  			<h1 class="f">新宿トラベル</h1>
+ 		 	<h2 class="f1">&copy;  Shinjuku Travel</h2>
+		</footer>
 
 </body>
 </html>
