@@ -10,15 +10,7 @@
 <body>
 <h3>新宿トラベル</h3>
 	
-	<ul class="snip1217">
-					<div id="menu">
-  						<li class="current"><a href="top.jsp">ホーム</a></li>
-  						<li><a href="mem_MyPage.jsp">マイページ</a></li>
-  						<li><a href="mem_Reg.jsp">会員登録</a></li>
-  						<li><a href="mem_Bc.jsp">予約確認</a></li>
-  						
-  					</div>
-	</ul>
+	
 	
 	
 <br>
