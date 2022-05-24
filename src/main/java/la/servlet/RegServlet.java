@@ -10,29 +10,45 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import la.bean.MemberBean;
-
+import la.dao.DAOException;
+import la.dao.RegDAO;
 
 @WebServlet("/RegServlet")
 public class RegServlet extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
+		try{
+		request.setCharacterEncoding("UTF-8");
 		
-			String action = request.getParameter("action");
-			if(action.equals("mem_reg")) {		
+		String year = request.getParameter("year");
+		String month = request.getParameter("month");
+		String day = request.getParameter("day");
+		
+		String birthday = year + "-" + month + "-" + day;
+		
+		MemberBean bean = new MemberBean();
+		bean.setName(request.getParameter("name"));
+		bean.setMem_address(request.getParameter("mem_address"));
+		bean.setPhone(request.getParameter("tel"));
+		bean.setEmail(request.getParameter("email"));
+		bean.setBirthday(birthday);
+		
+		
+		bean.setLogin_id(Integer.parseInt(request.getParameter("login_id")));
+		bean.setPass(request.getParameter("password"));
+		
+		RegDAO reg = new RegDAO();
+		
+		reg.saveMember(bean);
+
+		gotoPage(request, response, "/mem_MyPage.jsp");
+		
+		}catch(DAOException e) {
+			e.printStackTrace();
+
+		}
 			
-				MemberBean bean = new MemberBean();
-				bean.setName(request.getParameter("name"));
-				bean.setMem_address(request.getParameter("mem_address"));
-				bean.setPhoneNumber(request.getParameter("phone"));
-				bean.setEmail(request.getParameter("email"));
-				bean.setBirthday(request.getParameter("birthday"));
-				bean.setLogin_id(request.getParameter("login_id"));
-				bean.setBirthday(request.getParameter("birthday"));
-				
-				gotoPage(request, response, "/mem_MyPage.jsp");
-			}
-		
 	}
 	private void gotoPage(HttpServletRequest request, HttpServletResponse response, String page) throws ServletException, IOException {
 		RequestDispatcher rd = request.getRequestDispatcher(page);

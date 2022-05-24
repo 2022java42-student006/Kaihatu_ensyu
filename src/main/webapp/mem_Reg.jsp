@@ -22,28 +22,30 @@
 	<br>
 	<form action="/Kaihatu_ensyu/RegServlet?action=mem_reg" method="post">
 				名前
-					<input type="text" name ="名前" class="form-text"/>
+					<input type="text" name ="name" class="form-text"/>
 			<br>
 				住所
-					<input type="text" name="住所" class="form-text"/>
+					<input type="text" name="mem_address" class="form-text"/>
 			<br>
 				電話番号
-					<input type="tel" name="電話" class="form-text"/>
+					<input type="tel" name="tel" class="form-text"/>
 			<br>
 				メール
-					<input type="email" name="メール" class="form-text"/>
-			<br>
-				生年月日
-					<input type="date" name="生年月日" class="form-text"/>
-
+					<input type="email" name="email" class="form-text"/>
+				
 			<br>
 				ログインID
-					<input type="text" name="ログインID" class="form-text"/>
+					<input type="text" name="login_id" class="form-text"/>
 			<br>
 				パスワード
-					<input type="password" name="パスワード" class="form-text"/>
+					<input type="password" name="password" class="form-text"/>
 	
-			
+			<br>
+				生年月日
+					<input type="text" name="year" size="4" class="form-text"/>年
+					<input type="text" name="month" size="2" class="form-text"/>月
+					<input type="text" name="day" size="2" class="form-text"/>日
+
 			
 				
 				

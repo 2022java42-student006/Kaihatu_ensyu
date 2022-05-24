@@ -11,18 +11,18 @@
 <h1>マイページ</h1>
 
 <form action="/" method="post">
-<a href="mem_Bc.jsp">予約確認ページ</a>
+<input type="submit" value="予約情報確認">
 <input type="hidden" name="action" value="bookConfirm">
 <br>
 <br>
 
 氏名：${member.name}
 <br>
-電話番号：
+電話番号：${member.phone}
 <br>
-E-mail:
+E-mail:${member.email} 
 <br>
-ログインID：
+ログインID：${member.login_id}
 <br>
 <br>
 <a href="mem_Ch.jsp">
