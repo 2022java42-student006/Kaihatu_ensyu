@@ -10,7 +10,7 @@
 <a href="top.jsp">Topへ戻る</a>
 <br>
 <h1>ログイン</h1>
-<form>
+
 <form action="/Kaihatu_ensyu/LoginServlet.java" method="post">
 ログインID<input type="text" name="loginID">
 <br>
@@ -18,8 +18,6 @@
 <br>
 <input type="hidden" name="action" value="login">
 <input type="submit" value="ログイン">
-
-
 
 <br>
 <br>
