@@ -24,11 +24,22 @@
 		</div>
 	<br>
 <form action="/" method="post">
+<<<<<<< HEAD
+<input type="submit" value="予約情報確認">
+=======
+>>>>>>> f9a8bf9c8e8ce1887cbc6301940f4b5f0b522d2c
 <input type="hidden" name="action" value="bookConfirm">
 <br>
 
 氏名：${member.name}
 <br>
+<<<<<<< HEAD
+電話番号：${member.phone}
+<br>
+E-mail:${member.email} 
+<br>
+ログインID：${member.login_id}
+=======
 <br>
 電話番号：
 <br>
@@ -37,6 +48,7 @@ E-mail:
 <br>
 <br>
 ログインID：
+>>>>>>> f9a8bf9c8e8ce1887cbc6301940f4b5f0b522d2c
 <br>
 <br>
 <a href="mem_Ch.jsp">変更</a>

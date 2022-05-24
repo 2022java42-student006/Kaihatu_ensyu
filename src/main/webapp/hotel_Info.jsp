@@ -11,6 +11,7 @@
 <div class="sample_h_7">
 <p>新宿トラベル</p>
 	
+<<<<<<< HEAD
 			<ul class="snip1217">
 					<div id="menu">
   						<li class="current"><a href="top.jsp">ホーム</a></li>
@@ -21,6 +22,9 @@
   					</div>
 			</ul>
 </div>
+=======
+	
+>>>>>>> bcc23cfbaed1ee6b7e7a2cd4d11183cdeeaa95d5
 	
 	
 <br>
