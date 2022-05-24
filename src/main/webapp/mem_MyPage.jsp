@@ -11,7 +11,7 @@
 <h1>マイページ</h1>
 
 <form action="/" method="post">
-<input type="submit" value="予約情報確認">
+<a href="mem_Bc.jsp">予約確認ページ</a>
 <input type="hidden" name="action" value="bookConfirm">
 <br>
 <br>
