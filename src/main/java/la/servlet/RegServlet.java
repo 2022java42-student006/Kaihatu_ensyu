@@ -20,8 +20,7 @@ public class RegServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		try{
-			
-		HttpSession session = request.getSession();
+		
 		request.setCharacterEncoding("UTF-8");
 		
 		String year = request.getParameter("year");
@@ -42,6 +41,11 @@ public class RegServlet extends HttpServlet {
 		RegDAO reg = new RegDAO();
 		
 		reg.saveMember(bean);
+		
+		
+		HttpSession session = request.getSession();
+		
+		session.setAttribute("member", bean);
 
 		gotoPage(request, response, "/mem_MyPage.jsp");
 		
