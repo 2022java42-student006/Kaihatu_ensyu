@@ -65,8 +65,6 @@ a.btn-flat:hover:before {
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
-
-
 /*タイトル*/
 .sample_h_7{
 font-size: 25px;/* フォントサイズ */

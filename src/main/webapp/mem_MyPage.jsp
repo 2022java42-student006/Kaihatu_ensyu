@@ -20,14 +20,13 @@
   							<li class="current"><a href="top.jsp">ホーム</a></li>
   							<li><a href="mem_MyPage.jsp">マイページ</a></li>
   							<li><a href="mem_Reg.jsp">会員登録</a></li>
-  							<li><a href="mem_Bc.jsp">予約確認</a></li>
+  							<li><a href="mem_Login.jsp">ログイン</a></li>
   						</div>
 					</ul>	
 		</div>
 	<br>
 <form action="/" method="post">
 
-<input type="submit" value="予約情報確認">
 
 
 <input type="hidden" name="action" value="bookConfirm">
@@ -46,10 +45,29 @@ E-mail:${member.email}
 
 <br>
 <br>
+<<<<<<< HEAD
 <a href="mem_Ch.jsp">変更</a>
 <a href="mem_Lev.jsp">退会</a>
+</form>
+
+<form action="/Kaihatu_ensyu/LogoutServlet?action=logout" method="post">
 <input type ="submit" value="ログアウト">
 <input type="hidden" name="action" value="logout">
+</form>
+=======
+
+<a href="mem_Ch.jsp" class="btn btn-flat"><span>変更</span></a>
+<a href="mem_Lev.jsp" class="btn btn-flat"><span>退会</span></a>
+
+
+
+<div id="app">
+<label>
+<input type ="submit" value="ログアウト">
+<input type="hidden" name="action" value="logout">
+</label>
+</div>
+>>>>>>> a2c692ce6265b676c9d232770854d421196df536
 <br>
 
 
@@ -59,6 +77,6 @@ E-mail:${member.email}
  		 <h2 class="f1">&copy;  Shinjuku Travel</h2>
  	</footer>
 
-</form>
+
 </body>
 </html>

@@ -8,6 +8,7 @@
 </head>
 
 	<body>
+	<jsp:include page="/addMenu.jsp" />
 		<h3>削除しました</h3>
 		<a href="add_hotelTop.jsp">宿管理トップへ</a>
 	</body>

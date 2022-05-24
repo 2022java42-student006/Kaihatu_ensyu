@@ -8,6 +8,7 @@
 </head>
 
 	<body>
+	<jsp:include page="/addMenu.jsp" />
 		<h3>宿情報変更</h3>
 		
 		<form action="" method="post">

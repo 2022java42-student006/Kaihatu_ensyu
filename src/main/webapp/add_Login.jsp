@@ -9,6 +9,7 @@
 </head>
 
 	<body>
+	<jsp:include page="/addMenu2.jsp" />
 		<h3>管理者ログイン</h3><a href="top.jsp">戻る</a>
 		<br>
 				

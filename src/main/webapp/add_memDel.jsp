@@ -8,7 +8,8 @@
 <title>会員情報削除確認画面</title>
 </head>
 <body>
-<h1>管理者ページ</h1>
+<jsp:include page="/addMenu.jsp" />
+
 <a href="add_memCh.jsp">戻る</a><br>
 <img src="" alt="警告" >
 <br>

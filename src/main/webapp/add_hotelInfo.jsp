@@ -8,7 +8,14 @@
 </head>
 
 	<body>
+	<jsp:include page="/addMenu.jsp" />
 		<h3>宿情報</h3>
+		
+		<p>宿情報の表示</p>
+		
+		<a href="add_hotelCh.jsp">変更</a>　　　<a href="add_hotelDel.jsp">削除</a>
+		<br>
+		<br>
 		
 		<p>宿情報の表示</p>
 		

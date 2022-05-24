@@ -8,6 +8,7 @@
 </head>
 
 	<body>
+	<jsp:include page="/addMenu.jsp" />
 		<h3>削除してよろしいでしょうか。</h3>
 		<a href="add_hotelDelRes.jsp">はい</a>　　　<a href="add_hotelInfo.jsp">いいえ</a>
 	</body>
