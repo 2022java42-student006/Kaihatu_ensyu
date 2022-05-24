@@ -13,8 +13,8 @@ import la.bean.MemberBean;
 import la.dao.DAOException;
 import la.dao.RegDAO;
 
-@WebServlet("/RegServlet")
-public class RegServlet extends HttpServlet {
+@WebServlet("/Add_RegServlet")
+public class Add_RegServlet extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
@@ -41,7 +41,7 @@ public class RegServlet extends HttpServlet {
 		
 		reg.saveMember(bean);
 
-		gotoPage(request, response, "/mem_MyPage.jsp");
+		gotoPage(request, response, "/add_memTop.jsp");
 		
 		}catch(DAOException e) {
 			e.printStackTrace();
