@@ -25,10 +25,12 @@
 				
 				
 				<form action="text" method="get">
-					<input type="search" name="search" placeholder="キーワードを入力" class="form-text">
+					<input type="search" name="search" placeholder="宿名を入力" class="form-text">
 					<input type="submit" name="submit" value="検索">
 					
 					
+					<br>
+					<br>
 					<br>	
 					<p >キーワードで検索:</p>
 				
@@ -36,9 +38,14 @@
 					<input type="search" name="search" placeholder="キーワードを入力" class="form-text">
 					<input type="submit" name="submit" value="検索">
 				</form>
-				<br>
-
-				<a href="add_Login.jsp">管理者はこちらから←</a>	
+					<br>
+					<br>
+					<br>
+	
+	
+	<a href="add_Login.jsp" class="btn btn-flat"><span>管理者はこちらから←</span></a>
+	
+	
 	
 		<footer id="f3">
   			<h1 class="f">新宿トラベル</h1>

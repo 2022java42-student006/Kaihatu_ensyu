@@ -8,7 +8,8 @@
 <title>会員情報変更</title>
 </head>
 <body>
-		<h3>会員情報変更</h3>
+		<div class="sample_h_7">
+		<p>会員情報変更</p>
 		
 		
 		
@@ -20,9 +21,10 @@
   						<li><a href="mem_Bc.jsp">予約確認</a></li>
   					</div>
 		</ul>
+		</div>
+		
 	<br>
 	<h4>※変更する場合は、変更したい記入事項のみ記入</h4>
-	<br>
 				名前
 					<input type="text" name ="名前" class="form-text"/>
 
@@ -49,5 +51,13 @@
 					<input type="text" name="住所" class="form-text"/>
 				
 				<input class="contact-submit" type="submit" value="変更" />
+			<br>
+				
+			<footer id="f3">
+  				<h1 class="f">新宿トラベル</h1>
+ 		 		<h2 class="f1">&copy;  Shinjuku Travel</h2>
+			</footer>
+	
+			
 </body>
 </html>
