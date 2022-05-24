@@ -8,7 +8,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-		<h3>会員登録</h3>
+		<div class="sample_h_7">
+		<p>会員登録</p>
 		
 		<ul class="snip1217">
 					<div id="menu">
@@ -17,7 +18,8 @@
   						<li><a href="mem_Reg.jsp">会員登録</a></li>
   						<li><a href="mem_Bc.jsp">予約確認</a></li>
   					</div>
-	</ul>
+		</ul>
+		</div>
 	
 	<br>
 	<form action="/Kaihatu_ensyu/RegServlet?action=mem_reg" method="post">
@@ -43,11 +45,12 @@
 				パスワード
 					<input type="password" name="パスワード" class="form-text"/>
 	
-			
-			
-				
-				
 				<input class="contact-submit" type="submit" value="登録" />
 	</form>
+	<br>
+	<footer id="f3">
+  		<h1 class="f">新宿トラベル</h1>
+ 		 <h2 class="f1">&copy;  Shinjuku Travel</h2>
+ 	</footer>
 </body>
 </html>
