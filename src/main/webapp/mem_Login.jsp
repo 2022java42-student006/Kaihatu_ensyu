@@ -8,6 +8,7 @@
 </head>
 <link href="/Kaihatu_ensyu/css/style.css" rel="stylesheet">
 <body>
+<<<<<<< HEAD
 	<div class="sample_h_7">
 		<p>ログイン</p>
 
@@ -36,5 +37,25 @@
 		</footer>
 
 	</form>
+=======
+<a href="top.jsp">Topへ戻る</a>
+<br>
+<h1>ログイン</h1>
+
+<form action="/Kaihatu_ensyu/LoginServlet.java" method="post">
+ログインID<input type="text" name="loginID">
+<br>
+パスワード<input type="password" name="password">
+<br>
+<input type="hidden" name="action" value="login">
+<input type="submit" value="ログイン">
+
+<br>
+<br>
+
+<a href="mem_Lev.jsp">退会手続きの方はこちら</a>
+
+</form>
+>>>>>>> def6a7302c5b413cd27b995374dc1b84334f6ceb
 </body>
 </html>

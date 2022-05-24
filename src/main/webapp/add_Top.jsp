@@ -3,12 +3,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+
 <title></title>
 </head>
 
 	<body>
-		<h3>管理者ページ</h3><a href="add_Login.jsp">戻る</a>
+	<jsp:include page="/addMenu.jsp" />
+		<a href="add_Login.jsp">戻る</a>
 		<a href="add_memTop.jsp">会員情報管理</a><br>
 		<a href="add_hotelTop.jsp">宿情報管理</a>
 		

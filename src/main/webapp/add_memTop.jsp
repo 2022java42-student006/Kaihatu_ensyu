@@ -9,6 +9,7 @@
 <title>会員情報管理</title>
 </head>
 <body>
+<jsp:include page="/addMenu.jsp" />
 <h1>会員情報管理</h1>
 <a href="add_Top.jsp">戻る</a>
 <br>

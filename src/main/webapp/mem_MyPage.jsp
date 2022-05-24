@@ -31,6 +31,7 @@
 
 		<input type="hidden" name="action" value="bookConfirm"> <br>
 
+<<<<<<< HEAD
 		氏名：${member.name} <br> 電話番号：${member.phone} <br>
 		E-mail:${member.email} <br> ログインID：${member.login_id} <br> <br>
 		<br> <a href="mem_Ch.jsp" class="btn btn-flat"><span>変更</span></a>
@@ -43,6 +44,45 @@
 				type="hidden" name="action" value="logout">
 			</label>
 		<br>
+=======
+氏名：${member.name}
+<br>
+
+電話番号：${member.phone}
+<br>
+E-mail:${member.email} 
+<br>
+ログインID：${member.login_id}
+
+<br>
+
+<br>
+<br>
+
+<a href="mem_Ch.jsp">変更</a>
+<a href="mem_Lev.jsp">退会</a>
+</form>
+
+<form action="/Kaihatu_ensyu/LogoutServlet?action=logout" method="post">
+<input type ="submit" value="ログアウト">
+<input type="hidden" name="action" value="logout">
+</form>
+
+
+<a href="mem_Ch.jsp" class="btn btn-flat"><span>変更</span></a>
+<a href="mem_Lev.jsp" class="btn btn-flat"><span>退会</span></a>
+
+
+
+<div id="app">
+<label>
+<input type ="submit" value="ログアウト">
+<input type="hidden" name="action" value="logout">
+</label>
+</div>
+
+<br>
+>>>>>>> def6a7302c5b413cd27b995374dc1b84334f6ceb
 
 
 
@@ -51,6 +91,10 @@
 			<h2 class="f1">&copy; Shinjuku Travel</h2>
 		</footer>
 
+<<<<<<< HEAD
 	</form>
+=======
+
+>>>>>>> def6a7302c5b413cd27b995374dc1b84334f6ceb
 </body>
 </html>
