@@ -37,7 +37,6 @@ public void saveMember(MemberBean member) throws DAOException{
 				st.setString(2, member.getMem_address());
 				st.setString(3, member.getPhone());
 				st.setString(4, member.getEmail());
-				
 				st.setInt(5, member.getLogin_id());
 				st.setString(6, member.getPass());
 				
@@ -51,22 +50,6 @@ public void saveMember(MemberBean member) throws DAOException{
 				throw new DAOException("レコードの操作に失敗しました。");
 			}
 		
-		/*sql = "INSERT INTO member_infomation_login emp(login_id,password) VALUES(?, ?)";
-		
-		try(
-			Connection con = DriverManager.getConnection(url, user, pass);
-			PreparedStatement st = con.prepareStatement(sql);){
-				
-				st.setInt(1, member.getLogin_id());
-				st.setString(2, member.getPass());
-				
-				int rows =  st.executeUpdate();
-				
-				return rows;
-			}catch(SQLException e) {
-				e.printStackTrace();
-				throw new DAOException("レコードの操作に失敗しました。");
-			}*/
 	}
 
 }
