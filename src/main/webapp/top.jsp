@@ -8,17 +8,19 @@
 <title>新宿トラベル</title>
 </head>
 <body>
-	<h3>新宿トラベル</h3>
+		<div class="sample_h_7">
+			<p>新宿トラベル</p>
 	
-	<ul class="snip1217">
+			<ul class="snip1217">
 					<div id="menu">
   						<li class="current"><a href="top.jsp">ホーム</a></li>
   						<li><a href="mem_MyPage.jsp">マイページ</a></li>
   						<li><a href="mem_Reg.jsp">会員登録</a></li>
   						<li><a href="mem_Bc.jsp">予約確認</a></li>
   					</div>
-	</ul>
-				<br>
+  				</div>
+			</ul>
+			
 				<p >宿名で検索:</p>
 				
 				

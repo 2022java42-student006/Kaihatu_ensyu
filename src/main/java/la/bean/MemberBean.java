@@ -10,18 +10,22 @@ public class MemberBean implements Serializable {
 	private String email;
 	private String mem_address;
 	private String birthday;
+	private int login_id;
+	private String pass;
 
 	public MemberBean() {
-
+ 
 	}
 
-	public MemberBean(int mem_id, String name, String phoneNumber, String email, String mem_address, String birthday) {
+	public MemberBean(int mem_id, String name, String phoneNumber, String email, String mem_address, String birthday, int login_id, String pass) {
 		this.mem_id = mem_id;
 		this.name = name;
 		this.phoneNumber = phoneNumber;
 		this.email = email;
 		this.mem_address = mem_address;
 		this.birthday = birthday;
+		this.login_id = login_id;
+		this.pass = pass;
 	}
 
 	public void setMem_id(int mem_id) {
@@ -60,7 +64,7 @@ public class MemberBean implements Serializable {
 		this.mem_address = mem_address;
 	}
 
-	public String mem_address() {
+	public String getMem_address() {
 		return mem_address;
 	}
 
@@ -70,6 +74,22 @@ public class MemberBean implements Serializable {
 
 	public String getBirthday() {
 		return birthday;
+	}
+	
+	public void setLogin_id(int login_id) {
+		this.login_id = login_id;
+	}
+
+	public int getLogin_id() {
+		return login_id;
+	}
+	
+	public void setPass(String pass) {
+		this.pass = pass;
+	}
+
+	public String getPass() {
+		return pass;
 	}
 
 }

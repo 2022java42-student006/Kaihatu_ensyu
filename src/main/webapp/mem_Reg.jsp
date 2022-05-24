@@ -20,16 +20,22 @@
 	</ul>
 	
 	<br>
+	<form action="/Kaihatu_ensyu/RegServlet?action=mem_reg" method="post">
 				名前
 					<input type="text" name ="名前" class="form-text"/>
-
+			<br>
+				住所
+					<input type="text" name="住所" class="form-text"/>
 			<br>
 				電話番号
 					<input type="tel" name="電話" class="form-text"/>
 			<br>
 				メール
 					<input type="email" name="メール" class="form-text"/>
-				
+			<br>
+				生年月日
+					<input type="date" name="生年月日" class="form-text"/>
+
 			<br>
 				ログインID
 					<input type="text" name="ログインID" class="form-text"/>
@@ -37,14 +43,11 @@
 				パスワード
 					<input type="password" name="パスワード" class="form-text"/>
 	
-			<br>
-				生年月日
-					<input type="date" name="生年月日" class="form-text"/>
-
-			<br>
-				住所
-					<input type="text" name="住所" class="form-text"/>
+			
+			
+				
 				
 				<input class="contact-submit" type="submit" value="登録" />
+	</form>
 </body>
 </html>
