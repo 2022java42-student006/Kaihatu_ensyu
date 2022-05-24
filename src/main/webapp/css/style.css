@@ -299,6 +299,7 @@ table{
   border-spacing: 0;
 }
 
+
 table th:first-child{
   border-radius: 5px 0 0 0;
 }
@@ -341,3 +342,5 @@ table tr:last-child td:first-child {
 table tr:last-child td:last-child {
   border-radius: 0 0 5px 0;
 }
+
+

@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>管理者ページ</h1>
-<a href="/add_memInfo.jsp/">戻る</a>
+<a href="add_memInfo.jsp">戻る</a>
 <h3>会員情報変更</h3>
 <a>会員情報</a><br>
 <table border ="1">
