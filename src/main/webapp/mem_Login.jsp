@@ -11,7 +11,7 @@
 <br>
 <h1>ログイン</h1>
 <form>
-
+<form action="/Kaihatu_ensyu/LoginServlet.
 ログインID<input type="text" name="loginID">
 <br>
 パスワード<input type="password" name="password">
