@@ -48,8 +48,12 @@ E-mail:${member.email}
 <br>
 <a href="mem_Ch.jsp">変更</a>
 <a href="mem_Lev.jsp">退会</a>
+</form>
+
+<form action="/Kaihatu_ensyu/LogoutServlet?action=logout" method="post">
 <input type ="submit" value="ログアウト">
 <input type="hidden" name="action" value="logout">
+</form>
 <br>
 
 
@@ -59,6 +63,6 @@ E-mail:${member.email}
  		 <h2 class="f1">&copy;  Shinjuku Travel</h2>
  	</footer>
 
-</form>
+
 </body>
 </html>
