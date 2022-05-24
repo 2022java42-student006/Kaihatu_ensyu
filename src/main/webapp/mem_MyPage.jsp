@@ -45,7 +45,7 @@ E-mail:${member.email}
 
 <br>
 <br>
-<<<<<<< HEAD
+
 <a href="mem_Ch.jsp">変更</a>
 <a href="mem_Lev.jsp">退会</a>
 </form>
@@ -54,7 +54,7 @@ E-mail:${member.email}
 <input type ="submit" value="ログアウト">
 <input type="hidden" name="action" value="logout">
 </form>
-=======
+
 
 <a href="mem_Ch.jsp" class="btn btn-flat"><span>変更</span></a>
 <a href="mem_Lev.jsp" class="btn btn-flat"><span>退会</span></a>
@@ -67,7 +67,7 @@ E-mail:${member.email}
 <input type="hidden" name="action" value="logout">
 </label>
 </div>
->>>>>>> a2c692ce6265b676c9d232770854d421196df536
+
 <br>
 
 
