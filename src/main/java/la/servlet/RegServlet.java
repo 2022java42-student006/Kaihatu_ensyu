@@ -43,7 +43,6 @@ public class RegServlet extends HttpServlet {
 		
 		reg.saveMember(bean);
 		
-		
 		HttpSession session = request.getSession();
 		
 		session.setAttribute("member", bean);
