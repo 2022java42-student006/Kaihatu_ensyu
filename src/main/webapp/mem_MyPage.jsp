@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+    
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,8 +42,11 @@ E-mail:${member.email}
 ログインID：${member.login_id}
 
 <br>
+<<<<<<< HEAD
 <br>
 <br>
+=======
+>>>>>>> ac561d23d44b437edddbdae874bdc649688c0057
 
 <a href="mem_Ch.jsp" class="btn btn-flat"><span>変更</span></a>
 <a href="mem_Lev.jsp" class="btn btn-flat"><span>退会</span></a>
