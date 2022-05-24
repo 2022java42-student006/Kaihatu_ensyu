@@ -23,7 +23,7 @@
 				
 				
 				<form action="text" method="get">
-					<input type="search" name="search" plachholder="キーワードを入力" class="form-text">
+					<input type="search" name="search" placeholder="キーワードを入力" class="form-text">
 					<input type="submit" name="submit" value="検索">
 					
 					
@@ -31,7 +31,7 @@
 					<p >キーワードで検索:</p>
 				
 				
-					<input type="search" name="search" plachholder="キーワードを入力" class="form-text">
+					<input type="search" name="search" placeholder="キーワードを入力" class="form-text">
 					<input type="submit" name="submit" value="検索">
 				</form>
 				<br>	
