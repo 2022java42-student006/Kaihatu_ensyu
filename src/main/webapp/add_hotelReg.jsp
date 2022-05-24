@@ -20,6 +20,7 @@
 			チェックアウト時間<input type="text" name="hotel_checkout"><br>
 			<input type="submit" value="登録">
 		</form>
+		<a href="add_hotelTop.jsp">戻る</a>
 	</body>
 	
 </html>
