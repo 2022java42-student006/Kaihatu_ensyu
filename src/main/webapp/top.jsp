@@ -18,8 +18,8 @@
   						<li><a href="mem_Reg.jsp">会員登録</a></li>
   						<li><a href="mem_Bc.jsp">予約確認</a></li>
   					</div>
-  				</div>
 			</ul>
+		 </div>
 			
 				<p >宿名で検索:</p>
 				
@@ -37,13 +37,12 @@
 					<input type="submit" name="submit" value="検索">
 				</form>
 				<br>
-				
-				
+
 				<a href="add_Login.jsp">管理者はこちらから←</a>	
-				
+	
 		<footer id="f3">
-  		<h1 class="f">新宿トラベル</h1>
- 		 <h2 class="f1">&copy;  Shinjuku Travel</h2>
-	</footer>
+  			<h1 class="f">新宿トラベル</h1>
+ 		 	<h2 class="f1">&copy;  Shinjuku Travel</h2>
+		</footer>
 </body>
 </html>
