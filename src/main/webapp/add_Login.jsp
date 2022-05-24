@@ -9,11 +9,11 @@
 </head>
 
 	<body>
-		<h3>管理者ログイン</h3><a href="add_Top.jsp">戻る</a>
+		<h3>管理者ログイン</h3><a href="top.jsp">戻る</a>
 		<br>
 				
 				<form action="/Kaihatu_ensyu/Add_LoginServlet?action=login_info" method="post">
-				ユーザ名:
+				管理者ID:
 				<input type="text" name="add_username">
 				<br>	
 				パスワード:
