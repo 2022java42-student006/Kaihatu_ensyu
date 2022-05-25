@@ -43,6 +43,25 @@ public class LoginDAO {
 			throw new DAOException("レコードの取得に失敗しました。");
 		}
 	}
+<<<<<<< HEAD
+public void findMember(MemberBean member) throws DAOException{
+		
+		String sql = "SELECT * FROM member_information WHERE login_id = ? and password = ?";
+		
+		try(
+			Connection con = DriverManager.getConnection(url, user, pass);
+			PreparedStatement st = con.prepareStatement(sql);){
+				
+				
+				
+				
+				
+				
+				st.executeQuery();
+				
+				
+			}catch(SQLException e) {
+=======
 
 	public MemberBean findMember(int key) throws DAOException {
 
@@ -68,6 +87,7 @@ public class LoginDAO {
 					return null;
 				}
 			} catch (SQLException e) {
+>>>>>>> 497062ebcdd3e2f83dfac18ac7bf956aca499957
 				e.printStackTrace();
 				throw new DAOException("レコードの取得に失敗しました。");
 			}
