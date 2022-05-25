@@ -11,14 +11,7 @@
 	<div class="sample_h_7">
 		<p>ログイン</p>
 
-<<<<<<< HEAD
-<form action="/Kaihatu_ensyu/LoginServlet?action=login" method="post">
-ログインID<input type="text" name="loginID">
-<br>
-パスワード<input type="password" name="password">
-<br>
-<input type="submit" value="ログイン">
-=======
+
 		<ul class="snip1217">
 			<div id="menu">
 				<li class="current"><a href="top.jsp">ホーム</a></li>
@@ -42,7 +35,6 @@
 			<h1 class="f">新宿トラベル</h1>
 			<h2 class="f1">&copy; Shinjuku Travel</h2>
 		</footer>
->>>>>>> ad9da49d1c75a88c2cd7a56f80392c6197bb21a0
 
 </body>
 </html>
