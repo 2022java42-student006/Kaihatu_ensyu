@@ -3,13 +3,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="/Kaihatu_ensyu/css/style.css" rel="stylesheet">
 <meta charset="UTF-8">
 <title>退会手続き</title>
 </head>
 <body>
-<h1>退会手続き</h1>
-<br>
-<a href="top.jsp">Topへ戻る</a>
+<div class="sample_h_7">
+<p>退会手続き</p>
+<ul class="snip1217">
+			<div id="menu">
+				<li class="current"><a href="top.jsp">ホーム</a></li>
+				<li><a href="mem_MyPage.jsp">マイページ</a></li>
+				<li><a href="mem_Reg.jsp">会員登録</a></li>
+				<li><a href="mem_Login.jsp">ログイン</a></li>
+			</div>
+		</ul>
+</div>
 <br><br>
 
 <form action="/" method="post">
