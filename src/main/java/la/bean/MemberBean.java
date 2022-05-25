@@ -6,7 +6,7 @@ public class MemberBean implements Serializable {
 
 	private int mem_id;
 	private String name;
-	private String phone;
+	private String tel;
 	private String email;
 	private String mem_address;
 	private String birthday;
@@ -17,15 +17,22 @@ public class MemberBean implements Serializable {
  
 	}
 
-	public MemberBean(int mem_id, String name, String phone, String email, String mem_address, String birthday, int login_id, String password) {
-		this.mem_id = mem_id;
+	public MemberBean(int mem_id,String name, String tel, String email, String mem_address, String birthday, int login_id, String password) {
+		this.mem_id= mem_id;
 		this.name = name;
-		this.phone = phone;
+		this.tel = tel;
 		this.email = email;
 		this.mem_address = mem_address;
 		this.birthday = birthday;
 		this.login_id = login_id;
 		this.password = password;
+	}
+	
+	public MemberBean(String name,String tel,String email,int login) {
+		this.name=name;
+		this.tel=tel;
+		this.email=email;
+		this.login_id=login;
 	}
 
 	public void setMem_id(int mem_id) {
@@ -44,12 +51,12 @@ public class MemberBean implements Serializable {
 		return name;
 	}
 
-	public void setPhone(String phone) {
-		this.phone = phone;
+	public void setTel(String tel) {
+		this.tel = tel;
 	}
 
-	public String getPhone() {
-		return phone;
+	public String getTel() {
+		return tel;
 	}
 
 	public void setEmail(String email) {
