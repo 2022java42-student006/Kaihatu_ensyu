@@ -26,11 +26,11 @@ public class LoginServlet extends HttpServlet {
 		try {
 			LoginDAO dao = new LoginDAO();
 			if(action.equals("login")) {
-				int login_id = Integer.parseInt(request.getParameter("login_id"));
+				int login_id = Integer.parseInt(request.getParameter("loginID"));
 				String password = request.getParameter("password");
 				if(dao.DisplayMemInfo(login_id, password)) {
 					session.setAttribute("loginstate",true );
-					gotoPage(request, response, "mem_MyPage.jsp");
+					gotoPage(request, response, "/mem_MyPage.jsp");
 				}
 			}
 		} catch (NumberFormatException e) {

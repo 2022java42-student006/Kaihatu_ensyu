@@ -38,9 +38,7 @@ public void saveMember(MemberBean member) throws DAOException{
 				st.setInt(5, member.getLogin_id());
 				st.setString(6, member.getPass());
 				
-				
 				st.executeUpdate();
-				
 				
 			}catch(SQLException e) {
 				e.printStackTrace();

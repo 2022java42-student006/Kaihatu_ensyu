@@ -46,12 +46,8 @@ public void findMember(MemberBean member) throws DAOException{
 			PreparedStatement st = con.prepareStatement(sql);){
 				
 				
-				st.setString(1, member.getName());
-				st.setString(2, member.getMem_address());
-				st.setString(3, member.getPhone());
-				st.setString(4, member.getEmail());
-				st.setInt(5, member.getLogin_id());
-				st.setString(6, member.getPass());
+				
+				
 				
 				
 				st.executeQuery();
