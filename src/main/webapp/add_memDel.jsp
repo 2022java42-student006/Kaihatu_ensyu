@@ -15,7 +15,8 @@
 <br>
 <a>削除してもよろしいですか？</a>
 <form action="">
-<input type="submit" value=削除><input type="submit" value="キャンセル">
+<input type="submit" value=削除>
 </form>
+<form action=""><input type="submit" value="キャンセル"></form>
 </body>
 </html>
