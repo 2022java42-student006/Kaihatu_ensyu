@@ -48,13 +48,13 @@
 					<input type="text" name="year" size="4" class="form-text"/>年
 					<input type="text" name="month" size="2" class="form-text"/>月
 					<input type="text" name="day" size="2" class="form-text"/>日
+				<br>
 
-			
+				<input  type="submit" value="登録" class="button"/>
 				
-				
-
-				<input class="contact-submit" type="submit" value="登録" />
+				<br>
 	</form>
+	
 	<br>
 	<footer id="f3">
   		<h1 class="f">新宿トラベル</h1>

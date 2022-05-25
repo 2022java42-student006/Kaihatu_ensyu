@@ -23,10 +23,10 @@
 	</div>
 	<form action="/Kaihatu_ensyu/LoginServlet.java" method="post">
 	<br><br>
-		ログインID<input type="text" name="loginID"> <br> パスワード<input
-			type="password" name="password"> <br> <input
-			type="hidden" name="action" value="login"> <input
-			type="submit" value="ログイン"> <br> <br> 
+		ログインID<input type="text" name="loginID"class="form-text"> <br> パスワード<input
+			type="password" name="password"class="form-text"> <br> <input
+			type="hidden" name="action" value="login"class="form-text"><br> <input
+			type="submit" value="ログイン"class="button"> <br> <br> 
 			<br>
 			<a href="mem_Lev.jsp"class="btn btn-flat"><span>退会手続きの方はこちら←</span></a>
 
