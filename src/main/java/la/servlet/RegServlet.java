@@ -50,7 +50,7 @@ public class RegServlet extends HttpServlet {
 		
 		}catch(DAOException e) {
 			e.printStackTrace();
-
+			
 		}
 			
 	}
