@@ -24,7 +24,7 @@ public class RegDAO {
 
 public void saveMember(MemberBean member) throws DAOException{
 		
-		String sql = "INSERT INTO member_information(name, address, tel, email, birthday,login_id, password, en_date) VALUES(?, ?, ?, ?, '"+member.getBirthday()+"', ?, ?, current_date)";
+		String sql = "INSERT INTO member_information(name, mem_address, tel, email, birthday,login_id, password, en_date) VALUES(?, ?, ?, ?, '"+member.getBirthday()+"', ?, ?, current_date)";
 		
 		try(
 			Connection con = DriverManager.getConnection(url, user, pass);
@@ -33,14 +33,12 @@ public void saveMember(MemberBean member) throws DAOException{
 				
 				st.setString(1, member.getName());
 				st.setString(2, member.getMem_address());
-				st.setString(3, member.getPhone());
+				st.setString(3, member.getTel());
 				st.setString(4, member.getEmail());
 				st.setInt(5, member.getLogin_id());
 				st.setString(6, member.getPass());
 				
-				
 				st.executeUpdate();
-				
 				
 			}catch(SQLException e) {
 				e.printStackTrace();
