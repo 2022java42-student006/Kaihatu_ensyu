@@ -35,8 +35,5 @@
 			<h2 class="f1">&copy; Shinjuku Travel</h2>
 		</footer>
 
-
-
-</form>
 </body>
 </html>
