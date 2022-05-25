@@ -26,7 +26,7 @@
 	</div>
 	<br>
 
-<form action="/Kaihatu_ensyu/LogoutServlet?action=logout" method="post">
+
 
 
 		<input type="hidden" name="action" value="bookConfirm"> <br>
@@ -39,12 +39,12 @@
 
 
 
-		
+		<form action="/Kaihatu_ensyu/LogoutServlet?action=logout" method="post">
 			<label> <input type="submit" value="ログアウト"> <input
 				type="hidden" name="action" value="logout">
 			</label>
 			<br>
-
+		</form>
 
 		<footer id="f3">
 			<h1 class="f">新宿トラベル</h1>

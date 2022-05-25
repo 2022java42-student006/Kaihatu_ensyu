@@ -17,11 +17,11 @@
 				<li><a href="mem_Reg.jsp">会員登録</a></li>
 				<li><a href="mem_Login.jsp">ログイン</a></li>
 			</div>
-		</ul>
+</ul>
 </div>
 <br><br>
 
-<form action="/" method="post">
+<form action="/Kaihatu_ensyu/" method="post">
 氏名<input type="text" name="name">
 <br>
 ログインID<input type="text" name="liginID">
@@ -34,9 +34,17 @@
  退会しますか？
  <br>
 </label>
-<input type="hidden" name="action" value="leave">
-<input type="submit" value="退会する">
-
+	<input type="hidden" name="action" value="leave">
+	<input type="submit" value="退会する">
+	
+	<br>
+	<br>
+	
+	
+			<footer id="f3">
+  				<h1 class="f">新宿トラベル</h1>
+ 		 		<h2 class="f1">&copy;  Shinjuku Travel</h2>
+			</footer>
 
 
 </form>

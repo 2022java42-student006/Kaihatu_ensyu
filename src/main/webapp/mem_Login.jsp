@@ -11,6 +11,7 @@
 	<div class="sample_h_7">
 		<p>ログイン</p>
 
+
 		<ul class="snip1217">
 			<div id="menu">
 				<li class="current"><a href="top.jsp">ホーム</a></li>
@@ -35,8 +36,5 @@
 			<h2 class="f1">&copy; Shinjuku Travel</h2>
 		</footer>
 
-
-
-</form>
 </body>
 </html>

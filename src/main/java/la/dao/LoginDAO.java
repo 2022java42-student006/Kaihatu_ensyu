@@ -6,6 +6,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import la.bean.MemberBean;
+
 public class LoginDAO {
 	private String url = "jdbc:postgres:webinn";
 	private String user = "webinnuser";
@@ -35,5 +37,32 @@ public class LoginDAO {
 			throw new DAOException("レコードの取得に失敗しました。");
 		}
 	}
+public void findMember(MemberBean member) throws DAOException{
+		
+		String sql = "SELECT * FROM member_information WHERE login_id = ? and password = ?";
+		
+		try(
+			Connection con = DriverManager.getConnection(url, user, pass);
+			PreparedStatement st = con.prepareStatement(sql);){
+				
+				
+				st.setString(1, member.getName());
+				st.setString(2, member.getMem_address());
+				st.setString(3, member.getPhone());
+				st.setString(4, member.getEmail());
+				st.setInt(5, member.getLogin_id());
+				st.setString(6, member.getPass());
+				
+				
+				st.executeQuery();
+				
+				
+			}catch(SQLException e) {
+				e.printStackTrace();
+				throw new DAOException("レコードの操作に失敗しました。");
+			}
+		
+	}
+	
 
 }
