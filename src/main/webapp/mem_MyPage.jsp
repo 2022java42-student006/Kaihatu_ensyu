@@ -38,10 +38,10 @@
 		<a href="mem_Lev.jsp" class="btn btn-flat"><span>退会</span></a>
 
 
-
 		<form action="/Kaihatu_ensyu/LogoutServlet?action=logout" method="post">
-			<label> <input type="submit" value="ログアウト"> <input
-				type="hidden" name="action" value="logout">
+		<br>
+			<label> <input type="submit" value="ログアウト" class="button"> <input
+				type="hidden" name="action" value="logout" >
 			</label>
 			<br>
 		</form>
