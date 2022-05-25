@@ -11,12 +11,11 @@
 <br>
 <h1>ログイン</h1>
 
-<form action="/Kaihatu_ensyu/LoginServlet.java" method="post">
+<form action="/Kaihatu_ensyu/LoginServlet?action=login" method="post">
 ログインID<input type="text" name="loginID">
 <br>
 パスワード<input type="password" name="password">
 <br>
-<input type="hidden" name="action" value="login">
 <input type="submit" value="ログイン">
 
 <br>
