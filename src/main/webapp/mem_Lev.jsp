@@ -21,7 +21,7 @@
 </div>
 <br><br>
 
-<form action="/" method="post">
+<form action="/Kaihatu_ensyu/" method="post">
 氏名<input type="text" name="name">
 <br>
 ログインID<input type="text" name="liginID">
